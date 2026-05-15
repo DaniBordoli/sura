@@ -97,11 +97,6 @@ npm run db:seed      # Seedear la base de datos
 
 El proyecto incluye `render.yaml` con toda la configuración lista.
 
-1. Subir el repo a GitHub
-2. En [Render](https://render.com) → New → Web Service → conectar el repo
-3. Render detecta el `render.yaml` automáticamente
-4. El `buildCommand` crea y seedea la BD en cada deploy
-
 > **Por qué Render y no Vercel:** Vercel usa funciones serverless donde SQLite no puede compartirse entre invocaciones. Render corre un servidor Node.js persistente, lo que permite que SQLite funcione normalmente.
 
 ---
