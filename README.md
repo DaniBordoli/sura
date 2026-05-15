@@ -1,4 +1,4 @@
-# SuraBank 🏦
+# Sura 🏦
 
 Plataforma de banca móvil web construida como challenge técnico. Simula una app de finanzas personal con autenticación, carrusel de tarjetas y registro de movimientos.
 
